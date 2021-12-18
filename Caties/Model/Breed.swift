@@ -16,4 +16,10 @@ struct Breed: Codable, CustomStringConvertible {
     let energyLevel: Int
     let isHairLess: Bool
     let image: BreedImage
+    
+    var description: String {
+        return "Breed with name"
+    }
+    
+    
 }
