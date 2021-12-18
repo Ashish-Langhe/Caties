@@ -32,6 +32,9 @@
 		725C6AEE276B73F30033F2AF /* CatiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C6AED276B73F30033F2AF /* CatiesTests.swift */; };
 		725C6AF8276B73F30033F2AF /* CatiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C6AF7276B73F30033F2AF /* CatiesUITests.swift */; };
 		725C6AFA276B73F30033F2AF /* CatiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C6AF9276B73F30033F2AF /* CatiesUITestsLaunchTests.swift */; };
+		72D44394276E5BE0000B4B34 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D44393276E5BE0000B4B34 /* Breed.swift */; };
+		72D44395276E5BE0000B4B34 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D44393276E5BE0000B4B34 /* Breed.swift */; };
+		72D44396276E5BE0000B4B34 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D44393276E5BE0000B4B34 /* Breed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,7 @@
 		725C6AF3276B73F30033F2AF /* CatiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		725C6AF7276B73F30033F2AF /* CatiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatiesUITests.swift; sourceTree = "<group>"; };
 		725C6AF9276B73F30033F2AF /* CatiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72D44393276E5BE0000B4B34 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			children = (
 				72578F31276CC28400DB6F20 /* CatBreed.swift */,
 				72578F35276CC32800DB6F20 /* BreedImage.swift */,
+				72D44393276E5BE0000B4B34 /* Breed.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D44394276E5BE0000B4B34 /* Breed.swift in Sources */,
 				72578F36276CC32800DB6F20 /* BreedImage.swift in Sources */,
 				72578F42276CC90300DB6F20 /* LoadingView.swift in Sources */,
 				72578F32276CC28400DB6F20 /* CatBreed.swift in Sources */,
@@ -326,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D44395276E5BE0000B4B34 /* Breed.swift in Sources */,
 				72578F3B276CC40D00DB6F20 /* BreedFetcher.swift in Sources */,
 				72578F3F276CC8F100DB6F20 /* BreedListView.swift in Sources */,
 				72578F47276CC91100DB6F20 /* ErrorView.swift in Sources */,
@@ -340,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D44396276E5BE0000B4B34 /* Breed.swift in Sources */,
 				72578F38276CC32800DB6F20 /* BreedImage.swift in Sources */,
 				72578F44276CC90300DB6F20 /* LoadingView.swift in Sources */,
 				72578F34276CC28400DB6F20 /* CatBreed.swift in Sources */,
