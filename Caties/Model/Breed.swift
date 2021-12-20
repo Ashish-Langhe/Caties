@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Breed: Codable, CustomStringConvertible {
     
@@ -18,8 +19,21 @@ struct Breed: Codable, CustomStringConvertible {
     let image: BreedImage
     
     var description: String {
-        return "Breed with name"
+        return "Breed with name: \(name) and id: \(id), energy level: \(energyLevel) isHairless: \(isHairLess ? "YES" : "NO")"
     }
     
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case temperament
+        case breedExplanation = "description"
+        case energyLevel = "energy_level"
+        case isHairLess = "hairless"
+        case image
+    }
     
+    //TODO: - Need to implement this.
+//    init(decoder: Decoder) throws {
+//        let values = try decoder.container(keyedBy: CodingKeys.self)
+//    }
 }
